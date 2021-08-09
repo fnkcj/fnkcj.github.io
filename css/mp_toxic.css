@@ -27,7 +27,7 @@ body {
 }
 
 header {
-	background-image: url("assets/mp_strobe/banner.jpg");
+	background-image: url("../assets/mp_toxic/banner.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position:center top;
