@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>mp_toxic</title>
+    <title id="title"></title>
     <link type="text/css" rel="stylesheet" href="css/mp_toxic.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
 	<link rel="icon" href="favicon.ico">
@@ -13,7 +13,6 @@
     <div>
         <header>
 			<p id="header">
-			mp_toxic
 			</p>
         </header>
     </div>
@@ -22,7 +21,7 @@
 			<!--<button class="maplink" style="background-image: linear-gradient(to left, rgba(38,38,38,1), rgba(0,0,100,1));" onclick="changePage('dark_final')">mp_dark_final</button>
 			<button class="maplink" style="background-image: linear-gradient(to left, rgba(38,38,38,1), rgba(100,0,100,1));" onclick="changePage('mody_v4')">mp_mody_v4</button>
 			<button class="maplink" style="background-image: linear-gradient(to left, rgba(38,38,38,1), rgba(180,60,0,1));" onclick="changePage('sierra')">mp_sierra</button>-->
-			<button id="toxic" class="maplink" onclick="changePage('mp_toxic')">mp_toxic</button>
+			<button id="toxic" class="maplink" onclick="changePage(mapname)"></button>
 		</div>
 		<div class="mapcontent">
 			<div class="yt">
@@ -34,25 +33,25 @@
 			Unfortunately Toxic stopped working on it until I offered to finish it for him in the summer of last year.
 			We planned to just quickly clean it up a bit and then release, but it evolved into a full properly designed map, after we took Skazy on-board to help us with the theme and design.
 			</p>
-			<img class="image" src="assets/mp_strobe/image1.bmp">
+			<img class="image" src="assets/mp_toxic/image1.jpg">
 			<p>
 			Over the course of a year we just kept adding more and more detail to the map as we got new ideas until it started looking close to what it does now.
 			We think it's one of the most beautiful CoDJumper maps ever created, at least stylistically being close to mp_stalker level of detail.
 			If you don't already agree, we think you will once you play the map yourself.
 			</p>
-			<img class="image" src="assets/mp_strobe/image2.bmp">
+			<img class="image" src="assets/mp_toxic/image2.jpg">
 			<p>
 			Speaking of that, the map still has few details to iron out, so we don't want to commit to a release date.
 			My personal best guess would be sometime this year, but who knows what could happen, so no promises!
 			</p>
-			<img class="image" src="assets/mp_strobe/image3.bmp">
+			<img class="image" src="assets/mp_toxic/image3.jpg">
 			<p>
 			Until that, I hope you can enjoy this preview I made during the course of the few past weeks.
 			I put a ton of effort into this and I hope it shows! Let me know if you are feeling it!
 			</p>
 			
 		</div>
-		<div class="dl_buttons">
+		<div class="buttons">
 			<div class="credits" style="margin-bottom: 32px;">
 				<p style="text-align: left;">
 				Creators:
@@ -94,7 +93,7 @@
 				</ul>
 			</div>
 			
-			<button class="button1" onclick="window.location = 'usermaps/mp_strobe.zip'" >DOWNLOAD MAP</button>
+			<button class="button" onclick="window.location = 'https://drive.google.com/uc?id=' + mapid + '&export=download'" >DOWNLOAD MAP</button>
 			<p class="log notes" style="margin-bottom: -16px;">
 				<b>v1.0</b> - Coming Soon
 			</p>
@@ -106,14 +105,21 @@
     <div class="footer">
         <footer>
             <p>
-			<a href="https://www.youtube.com/channel/UCeCnHuZPSwZIM8TLI2OFUlQ" target="_blank">YouTube</a>
-			<a href="https://steamcommunity.com/id/funkcj" target="_blank">Steam</a>
-			<a>Discord</a>
+				<a href="https://www.youtube.com/channel/UCeCnHuZPSwZIM8TLI2OFUlQ" target="_blank">YouTube</a>
+				<a href="https://steamcommunity.com/id/funkcj" target="_blank">Steam</a>
+				<a>Discord</a>
 			</p>
         </footer>
     </div>
 
     <script>
+		var mapname = "mp_toxic";
+		var mapid = "1fjgTChRCkhCWOtM0sk1seNqNLSYFy1kz"; //Map ID from Google Drive
+		
+		document.getElementById("header").innerHTML = mapname;
+		document.getElementById("toxic").innerHTML = mapname;
+		document.getElementById("title").innerHTML = mapname;
+	
 		function changePage(page) {
 			location.href = page;
 		}
