@@ -72,7 +72,7 @@ footer {
   transition: 0.3s;
 }
 
-#strobe {
+#toxic {
 	background-image: linear-gradient(to left, var(--medium), var(--bright));
 	border-left: ridge;
 	border-color: var(--ultra);
