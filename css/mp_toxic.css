@@ -47,6 +47,10 @@ footer {
   	width: 100%;
 	padding-top: 12px;
 	display: inline-block;
+	
+	border-top-style: ridge;
+	border-color: var(--ultra);
+	border-width: 5px;
 }
 
 footer a {
