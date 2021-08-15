@@ -1,3 +1,7 @@
+:root {
+	--maplink: rgba(25,25,25,1);
+}
+
 @font-face {
   font-family: ggpp;
   src: url(../assets/GoGoPosterPunchItalic.ttf);
@@ -71,7 +75,10 @@ footer a {
 	transition: 0.3s;
 }
 
-/* MAP */
+#selectedmap {
+	border-left: ridge;
+	border-width: 5px;
+}
 
 #header {
 	font-family: ggpp;
@@ -140,6 +147,10 @@ footer a {
 	font-weight: normal;
 }
 
+.credits p {
+	text-align: left;
+}
+
 .button {
 	display: block;
 	color: white;
@@ -188,6 +199,31 @@ footer a {
 	border-width: 5px;
 }
 
+.wt {
+	margin-bottom: 32px;
+	margin-top: -48px;
+}
+
 .content {
 	display: flex;
+}
+
+#mp_toxic {
+	background-image: linear-gradient(to left, var(--maplink), rgba(25,110,0,1));
+}
+
+#mp_dark_final {
+	background-image: linear-gradient(to left, var(--maplink), rgba(0,0,100,1));
+}
+
+#mp_mody_v4 {
+	background-image: linear-gradient(to left, var(--maplink), rgba(25,110,0,1));
+}
+
+#mp_sierra {
+	background-image: linear-gradient(to left, var(--maplink), rgba(180,60,0,1));
+}
+
+#mp_strobe {
+	background-image: linear-gradient(to left, var(--maplink), rgba(0,150,150,1));
 }

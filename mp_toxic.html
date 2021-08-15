@@ -19,10 +19,7 @@
     </div>
 	<div class="content">
 		<div class="map">
-			<!--<button class="maplink" style="background-image: linear-gradient(to left, rgba(38,38,38,1), rgba(0,0,100,1));" onclick="changePage('dark_final')">mp_dark_final</button>
-			<button class="maplink" style="background-image: linear-gradient(to left, rgba(38,38,38,1), rgba(100,0,100,1));" onclick="changePage('mody_v4')">mp_mody_v4</button>
-			<button class="maplink" style="background-image: linear-gradient(to left, rgba(38,38,38,1), rgba(180,60,0,1));" onclick="changePage('sierra')">mp_sierra</button>-->
-			<button id="toxic" class="maplink" onclick="changePage(mapname)"></button>
+			<button id="selectedmap" class="maplink" onclick="changePage(mapname)"></button>
 		</div>
 		<div class="mapcontent">
 			<div class="yt">
@@ -86,7 +83,7 @@
 		</div>
 		<div class="sidebar">
 			<div class="credits" style="margin-bottom: 32px;">
-				<p style="text-align: left;">
+				<p>
 				Creators:
 				</p>
 				<ul>
@@ -94,7 +91,7 @@
 					<li class="log">Funk</li>
 					<li class="log">Toxic</li>
 				</ul>
-				<p style="text-align: left;">
+				<p>
 				Testers:
 				</p>
 				<ul>
@@ -104,19 +101,19 @@
 				</ul>
 			</div>
 			<div class="credits" style="margin-bottom: 32px;">
-				<p style="text-align: left;">
+				<p>
 				Type:
 				</p>
 				<ul>
 					<li class="log">Linear / Freeroam</li>
 				</ul>
-				<p style="text-align: left;">
+				<p>
 				Mode:
 				</p>
 				<ul>
 					<li class="log">non-OS</li>
 				</ul>
-				<p style="text-align: left;">
+				<p>
 				Ways:
 				</p>
 				<ul>
@@ -126,7 +123,7 @@
 				</ul>
 			</div>
 			
-			<button class="button" onclick="window.location = 'https://drive.google.com/uc?id=' + mapid + '&export=download'" >DOWNLOAD MAP</button>
+			<button class="button" onclick="window.location = 'https://drive.google.com/uc?id=' + mapid + '&export=download'">DOWNLOAD MAP</button>
 			<p class="log notes" style="margin-bottom: -16px;">
 				<b>v1.0</b> - Coming Soon
 			</p>
@@ -154,7 +151,7 @@
 		var mapid = "1fjgTChRCkhCWOtM0sk1seNqNLSYFy1kz"; //Map ID from Google Drive
 		
 		document.getElementById("header").innerHTML = mapname;
-		document.getElementById("toxic").innerHTML = mapname;
+		document.getElementById("selectedmap").innerHTML = mapname;
 		document.getElementById("title").innerHTML = mapname;
 	
 		function changePage(page) {

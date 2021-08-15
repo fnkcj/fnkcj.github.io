@@ -20,11 +20,9 @@ footer {
 	background-image: linear-gradient(to right, var(--dark), var(--medium));
 }
 
-#toxic {
+#selectedmap {
 	background-image: linear-gradient(to left, var(--medium), var(--bright));
-	border-left: ridge;
 	border-color: var(--ultra);
-	border-width: 5px;
 }
 
 .mapcontent {
