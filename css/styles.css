@@ -1,0 +1,193 @@
+@font-face {
+  font-family: ggpp;
+  src: url(../assets/GoGoPosterPunchItalic.ttf);
+}
+
+* {
+	box-sizing: border-box
+}
+
+html {
+	min-height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: Orbitron;
+	letter-spacing: 1px;
+	line-height: 30px;
+	margin: 0;
+}
+
+header {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:center top;
+	background-size: contain;
+	width: 100%;
+	height: 0;
+	padding-bottom: 15%;
+	position: relative;
+}
+
+footer {
+  	text-align: center;
+  	color: white;
+  	width: 100%;
+	padding-top: 12px;
+	display: inline-block;
+	border-top-style: ridge;
+	border-width: 5px;
+}
+
+footer a {
+	text-decoration: none
+}
+
+.icon {
+	width: 32px;
+	height: 32px;
+	margin: 16px;
+}
+
+.map {
+	float: left;
+	width: 20%;
+	flex: 1;
+}
+
+.map button {
+	display: block;
+	background-color: inherit;
+	color: white;
+	padding: 22px 16px;
+	width: 100%;
+	border: none;
+	outline: none;
+	text-align: left;
+	font-family: ggpp;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+/* MAP */
+
+#header {
+	font-family: ggpp;
+	font-size: 5vw;
+	text-shadow: 4px 4px 8px black;
+	margin-top: 0px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.mapcontent {
+	float: left;
+	padding-left: 32px;
+	width: 60%;
+	border-left: none;
+	color: white;
+	flex: 3;
+}
+
+.mapcontent p {
+	margin-top: 64px;
+	margin-bottom: 64px;
+	font-size: 20px;
+	text-shadow: 2px 2px 4px black;
+}
+
+.mapcontent h1 {
+	margin-top: 64px;
+	margin-bottom: -32px;
+	text-shadow: 2px 2px 4px black;
+}
+
+.maplink {
+	text-shadow: 2px 2px 4px black, 2px 2px 4px white; 
+}
+
+.sidebar {
+	padding-top: 32px;
+	padding-right: 32px;
+	padding-left: 32px;
+	float: right;
+	width: 20%;
+	text-align: center;
+	position: sticky;
+	flex: 1;
+}
+
+.credits {
+	display: block;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+	padding: 16px;
+	width: 100%;
+	border-style: ridge;
+	border-width: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.credits li {
+	text-shadow: 2px 2px 4px black;
+	font-weight: normal;
+}
+
+.button {
+	display: block;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+	padding: 22px 16px;
+	width: 100%;
+	outline-style: ridge;
+	text-align: center;
+	font-family: ggpp;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.log {
+	text-align: left;
+	font-style: italic;
+	color: #fff;
+	text-shadow: 1px 1px 2px black;
+}
+
+.notes {
+	line-height: 24px;
+}
+
+.image {
+	width: 100%;
+	border-style: ridge;
+	border-width: 5px;
+}
+
+.yt{
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	margin-top: 32px;
+	height: 0;
+}
+
+.yt iframe{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-style: ridge;
+	border-width: 5px;
+}
+
+.content {
+	display: flex;
+}
