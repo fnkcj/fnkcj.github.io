@@ -20,7 +20,7 @@ footer {
 	background-image: linear-gradient(to right, var(--dark), var(--medium));
 }
 
-#selectedmap {
+#currentpage {
 	background-image: linear-gradient(to left, var(--medium), var(--bright));
 	border-color: var(--ultra);
 }

@@ -72,13 +72,41 @@ footer a {
 	font-family: ggpp;
 	font-size: 20px;
 	cursor: pointer;
-	transition: 0.3s;
 }
 
-#selectedmap {
+.link {
+	display: flex;
+	background-color: inherit;
+	color: white;
+	padding: 0px 16px;
+	width: 100%;
+	border: none;
+	outline: none;
+	text-align: left;
+	font-size: 20px;
+	cursor: pointer;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+.name {
+	font-family: ggpp;
+}
+
+.year {
+	font-size: 12px;
+	font-style: italic;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+
+#currentpage {
 	border-left: ridge;
 	border-width: 5px;
 }
+
 
 #header {
 	font-family: ggpp;
@@ -217,7 +245,7 @@ footer a {
 }
 
 #mp_mody_v4 {
-	background-image: linear-gradient(to left, var(--maplink), rgba(25,110,0,1));
+	background-image: linear-gradient(to left, var(--maplink), rgba(100,0,100,1));
 }
 
 #mp_sierra {
