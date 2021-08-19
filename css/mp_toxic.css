@@ -1,9 +1,17 @@
 :root {
+	/*
 	--super:	rgba(60,200,0,1);
 	--ultra:	rgba(40,150,0,1);
 	--bright: 	rgba(25,110,0,1);
 	--medium: 	rgba(15,65,0,1);
 	--dark: 	rgba(5,20,0,1);
+	*/
+	
+	--super: rgba(130, 195, 40, 1);
+	--ultra: rgba(100, 150, 32, 1);
+	--bright: rgba(70, 105, 24, 1);
+	--medium: rgba(40, 60, 16, 1);
+	--dark: rgba(10, 15, 8, 1);
 }
 
 header {
@@ -14,6 +22,10 @@ header {
 footer {
 	background-image: linear-gradient(to right, var(--dark), var(--bright));
 	border-color: var(--ultra);
+}
+
+footer p {
+	color: var(--ultra);
 }
 
 .map {
@@ -54,8 +66,6 @@ footer {
 .image {
 	border-color: var(--ultra);
 }
-
- 
 
 .yt iframe{
 	border-color: var(--ultra);
