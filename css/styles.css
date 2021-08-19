@@ -51,6 +51,7 @@ footer a {
 footer p {
 	margin-left: 32px;
 	font-size: 15px;
+	position: absolute;
 }
 
 .icons {
