@@ -179,6 +179,7 @@ footer p {
 	text-align: center;
 	font-weight: bold;
 	font-size: 16px;
+	margin-bottom: 32px;
 }
 
 .credits li {
@@ -212,6 +213,10 @@ footer p {
 
 .notes {
 	line-height: 24px;
+}
+
+.title {
+	margin-bottom: -16px;
 }
 
 .image {
