@@ -140,6 +140,12 @@ footer p {
 	flex: 3;
 }
 
+.mapcontent h1 {
+	margin-top: 64px;
+	margin-bottom: -32px;
+	text-shadow: 2px 2px 4px black;
+}
+
 .mapcontent p {
 	margin-top: 64px;
 	margin-bottom: 64px;
@@ -147,10 +153,8 @@ footer p {
 	text-shadow: 2px 2px 4px black;
 }
 
-.mapcontent h1 {
-	margin-top: 64px;
-	margin-bottom: -32px;
-	text-shadow: 2px 2px 4px black;
+.mapcontent a {
+	color: white;
 }
 
 .maplink {
@@ -254,7 +258,7 @@ footer p {
 }
 
 #mp_toxic {
-	background-image: linear-gradient(to left, var(--maplink), rgba(25,110,0,1));
+	background-image: linear-gradient(to left, var(--maplink), rgba(70,105,24,1));
 }
 
 #mp_dark_final {
