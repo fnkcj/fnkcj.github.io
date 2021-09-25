@@ -66,8 +66,6 @@ footer p {
 }
 
 .map {
-	float: left;
-	width: 20%;
 	flex: 1;
 }
 
@@ -132,10 +130,7 @@ footer p {
 }
 
 .mapcontent {
-	float: left;
 	padding-left: 32px;
-	width: 60%;
-	border-left: none;
 	color: white;
 	flex: 3;
 }
@@ -165,10 +160,6 @@ footer p {
 	padding-top: 32px;
 	padding-right: 32px;
 	padding-left: 32px;
-	float: right;
-	width: 20%;
-	text-align: center;
-	position: sticky;
 	flex: 1;
 }
 
