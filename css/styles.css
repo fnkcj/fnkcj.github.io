@@ -257,7 +257,7 @@ footer p {
 }
 
 #mp_mody_v4 {
-	background-image: linear-gradient(to left, var(--maplink), rgba(100,0,100,1));
+	background-image: linear-gradient(to left, var(--maplink), rgba(75,0,110,1));
 }
 
 #mp_sierra {
