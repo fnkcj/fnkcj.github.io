@@ -63,6 +63,12 @@ footer p {
 	width: 32px;
 	height: 32px;
 	margin: 16px;
+	transition: 0.25s;
+}
+
+.icon:hover {
+	transform: scale(1.25);
+	transition: 0.25s;
 }
 
 .map {
