@@ -68,7 +68,6 @@ footer p {
 
 .icon:hover {
 	transform: scale(1.25);
-	transition: 0.25s;
 }
 
 .map {
