@@ -101,11 +101,35 @@ footer p {
 	cursor: pointer;
 	flex-direction: row;
 	align-items: center;
+	border-left: ridge;
 }
 
+#exit .name {
+	font-family: Orbitron;
+	font-size: 16px;
+	font-style: italic;
+}
 
 .name {
 	font-family: ggpp;
+}
+
+.link:not(#currentpage):hover > .name p {
+	transform-origin: 0%;
+	transform: scale(1.15);
+}
+
+.link:not(#currentpage) {
+	border-width: 0px;
+	transition: 0.25s;
+}
+
+.link:not(#currentpage):hover {
+	border-width: 8px;
+}
+
+.name p {
+	transition: 0.25s;
 }
 
 .year {
@@ -117,8 +141,12 @@ footer p {
 
 
 #currentpage {
-	border-left: ridge;
-	border-width: 5px;
+	border-width: 8px;
+}
+
+#currentpage .name p {
+	transform-origin: 0%;
+	transform: scale(1.15);
 }
 
 
@@ -255,6 +283,7 @@ footer p {
 
 #mp_toxic {
 	background-image: linear-gradient(to left, var(--maplink), rgba(70,105,24,1));
+	border-color: rgba(100, 150, 32, 1) !important;
 }
 
 #mp_dark_final {
@@ -263,6 +292,7 @@ footer p {
 
 #mp_mody_v4 {
 	background-image: linear-gradient(to left, var(--maplink), rgba(75,0,110,1));
+	border-color: rgba(105,0,150,1) !important;
 }
 
 #mp_sierra {
