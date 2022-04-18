@@ -1,0 +1,69 @@
+:root {
+	--super:	rgba(120, 180, 240, 1);
+	--ultra:	rgba(60, 120, 180, 1);
+	--bright: 	rgba(30, 60, 120, 1);
+	--medium: 	rgba(15, 30, 60, 1);
+	--dark: 	rgba(5, 10, 20, 1);
+}
+
+header {
+	background-image: url("../assets/mp_dark_final/banner.jpg");
+	background-color: var(--dark);
+}
+
+footer {
+	background-image: linear-gradient(to right, var(--dark), var(--bright));
+	border-color: var(--ultra);
+}
+
+footer p {
+	color: var(--ultra);
+}
+
+.map {
+	background-image: linear-gradient(to right, var(--dark), var(--medium));
+}
+
+#selectedmap {
+	background-image: linear-gradient(to left, var(--medium), var(--bright));
+	/*border-color: var(--ultra);*/
+}
+
+#currentpage {
+	background-image: linear-gradient(to left, var(--medium), var(--bright));
+	border-color: var(--ultra);
+}
+
+.mapcontent {
+	background-color: var(--medium);
+}
+
+.mapcontent p {
+	color: var(--ultra);
+}
+
+.mapcontent h1 {
+	color: var(--super);
+}
+
+.sidebar {
+	background-image: linear-gradient(to right, var(--medium), var(--bright));
+}
+
+.credits {
+	background-image: linear-gradient(to left, var(--medium), var(--bright));
+	border-color: var(--ultra);
+}
+
+.download {
+	background-image: linear-gradient(to left, var(--medium), var(--bright));
+	border-color: var(--ultra);
+}
+
+.image {
+	border-color: var(--ultra);
+}
+
+.yt iframe{
+	border-color: var(--ultra);
+}

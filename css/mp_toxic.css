@@ -58,9 +58,9 @@ footer p {
 	border-color: var(--ultra);
 }
 
-.button {
+.download {
 	background-image: linear-gradient(to left, var(--medium), var(--bright));
-	outline-color: var(--ultra);
+	border-color: var(--ultra);
 }
 
 .image {
