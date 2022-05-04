@@ -1,5 +1,3 @@
-const url = "https://fnkcj.github.io"
-
 document.getElementById("header").innerHTML = mapname;
 document.getElementById("title").innerHTML = mapname;
 
@@ -8,6 +6,14 @@ let imageElements = document.getElementsByClassName('picture');
 for (let i = 0; i < imageElements.length; i++) {
     addImage(imageElements[i].id);
 }
+
+let youtubeElement = document.getElementById('youtube');
+let steamElement = document.getElementById('steam');
+let discordElement = document.getElementById('discord');
+
+youtubeElement.href = youtube;
+steamElement.href = steam;
+discordElement.href = discord;
 
 function changePage(page) {
     location.href = page;
