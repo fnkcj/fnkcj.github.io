@@ -17,7 +17,7 @@ footer {
 }
 
 footer p {
-	color: var(--ultra);
+	color: var(--super);
 }
 
 .map {
@@ -66,4 +66,8 @@ footer p {
 
 .yt iframe{
 	border-color: var(--ultra);
+}
+
+.icon {
+	fill: var(--super);
 }
