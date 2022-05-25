@@ -19,7 +19,12 @@ document.getElementById(mapname).classList.add("active");
 document.getElementById("mapstyles").href = "css/" + mapname + ".css";
 
 function changePage(page) {
-    location.href = page;
+    let path = window.location.pathname;
+    if (path.includes(url)) {
+        location.href = page;
+    } else {
+        location.href = page + ".html";
+    }
 }
 
 function addImage(name) {
