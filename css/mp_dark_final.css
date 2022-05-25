@@ -29,7 +29,7 @@ footer p {
 	/*border-color: var(--ultra);*/
 }
 
-#currentpage {
+.active {
 	background-image: linear-gradient(to left, var(--medium), var(--bright));
 	border-color: var(--ultra);
 }

@@ -15,6 +15,8 @@ youtubeElement.href = youtube;
 steamElement.href = steam;
 discordElement.href = discord;
 
+document.getElementById(mapname).classList.add("active");
+
 function changePage(page) {
     location.href = page;
 }

@@ -114,12 +114,12 @@ footer p {
 	font-family: ggpp;
 }
 
-.link:not(#currentpage) {
+.link:not(.active) {
 	border-width: 0px;
 	transition: 0.25s;
 }
 
-.link:not(#currentpage):hover {
+.link:not(.active):hover {
 	border-width: 5px;
 }
 

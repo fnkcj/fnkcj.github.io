@@ -29,8 +29,8 @@ footer p {
 	/*border-color: var(--ultra);*/
 }
 
-#currentpage {
-	background-image: linear-gradient(to left, var(--medium), var(--bright));
+.active {
+	background-image: linear-gradient(to left, var(--medium), var(--bright)) !important;
 	border-color: var(--ultra);
 }
 
