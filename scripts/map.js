@@ -16,6 +16,7 @@ steamElement.href = steam;
 discordElement.href = discord;
 
 document.getElementById(mapname).classList.add("active");
+document.getElementById("mapstyles").href = "css/" + mapname + ".css";
 
 function changePage(page) {
     location.href = page;

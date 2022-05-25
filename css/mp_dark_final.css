@@ -30,7 +30,7 @@ footer p {
 }
 
 .active {
-	background-image: linear-gradient(to left, var(--medium), var(--bright));
+	background-image: linear-gradient(to left, var(--medium), var(--bright)) !important;
 	border-color: var(--ultra);
 }
 
