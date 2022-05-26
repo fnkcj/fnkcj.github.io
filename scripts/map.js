@@ -14,7 +14,7 @@ document.getElementById("mapstyles").href = "css/" + mapname + ".css";
 
 function changePage(page) {
     let path = window.location.pathname;
-    if (path.includes(url)) {
+    if (path.includes("github")) {
         location.href = page;
     } else {
         location.href = page + ".html";
