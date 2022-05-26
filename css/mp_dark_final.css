@@ -1,73 +1,65 @@
-:root {
-	--super:	rgba(120, 180, 240, 1);
-	--ultra:	rgba(60, 120, 180, 1);
-	--bright: 	rgba(30, 60, 120, 1);
-	--medium: 	rgba(15, 30, 60, 1);
-	--dark: 	rgba(5, 10, 20, 1);
-}
-
 header {
-	background-image: url("../assets/mp_dark_final/banner.jpg");
-	background-color: var(--dark);
+	background-image: url("../assets/mp_mp_dark_final_color_1_final/banner.jpg");
+	background-color: var(--mp_dark_final_color_1);
 }
 
 footer {
-	background-image: linear-gradient(to right, var(--dark), var(--bright));
-	border-color: var(--ultra);
+	background-image: linear-gradient(to right, var(--mp_dark_final_color_1), var(--mp_dark_final_color_3));
+	border-color: var(--mp_dark_final_color_4);
 }
 
 footer p {
-	color: var(--super);
+	color: var(--mp_dark_final_color_5);
 }
 
 .map {
-	background-image: linear-gradient(to right, var(--dark), var(--medium));
+	background-image: linear-gradient(to right, var(--mp_dark_final_color_1), var(--mp_dark_final_color_2));
 }
 
 #selectedmap {
-	background-image: linear-gradient(to left, var(--medium), var(--bright));
-	/*border-color: var(--ultra);*/
+	background-image: linear-gradient(to left, var(--mp_dark_final_color_2), var(--mp_dark_final_color_3));
+	/*border-color: var(--mp_dark_final_color_4);*/
 }
 
 .active {
-	background-image: linear-gradient(to left, var(--medium), var(--bright)) !important;
-	border-color: var(--ultra);
+	background-image: linear-gradient(to left, var(--mp_dark_final_color_2), var(--mp_dark_final_color_3)) !important;
+	border-color: var(--mp_dark_final_color_4);
 }
 
 .mapcontent {
-	background-color: var(--medium);
+	background-color: var(--mp_dark_final_color_2);
 }
 
 .mapcontent p {
-	color: var(--ultra);
+	color: var(--mp_dark_final_color_4);
 }
 
 .mapcontent h1 {
-	color: var(--super);
+	color: var(--mp_dark_final_color_5);
 }
 
 .sidebar {
-	background-image: linear-gradient(to right, var(--medium), var(--bright));
+	background-image: linear-gradient(to right, var(--mp_dark_final_color_2), var(--mp_dark_final_color_3));
 }
 
 .credits {
-	background-image: linear-gradient(to left, var(--medium), var(--bright));
-	border-color: var(--ultra);
+	background-image: linear-gradient(to left, var(--mp_dark_final_color_2), var(--mp_dark_final_color_3));
+	border-color: var(--mp_dark_final_color_4);
 }
 
 .download {
-	background-image: linear-gradient(to left, var(--medium), var(--bright));
-	border-color: var(--ultra);
+	background-image: linear-gradient(to left, var(--mp_dark_final_color_2), var(--mp_dark_final_color_3));
+	border-color: var(--mp_dark_final_color_4);
 }
 
 map-image img {
-	border-color: var(--ultra);
+	border-color: var(--mp_dark_final_color_4);
 }
 
 .yt iframe{
-	border-color: var(--ultra);
+	border-color: var(--mp_dark_final_color_4);
 }
 
 .icon {
-	fill: var(--super);
+	fill: var(--mp_dark_final_color_5);
 }

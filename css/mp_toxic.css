@@ -1,76 +1,60 @@
-:root {
-	/*
-	--super:	rgba(60,200,0,1);
-	--ultra:	rgba(40,150,0,1);
-	--bright: 	rgba(25,110,0,1);
-	--medium: 	rgba(15,65,0,1);
-	--dark: 	rgba(5,20,0,1);
-	*/
-	
-	--super: rgba(130, 195, 40, 1);
-	--ultra: rgba(100, 150, 32, 1);
-	--bright: rgba(70, 105, 24, 1);
-	--medium: rgba(40, 60, 16, 1);
-	--dark: rgba(10, 15, 8, 1);
-}
-
 header {
 	background-image: url("../assets/mp_toxic/banner.jpg");
-	background-color: var(--dark);
+	background-color: var(--mp_toxic_color_1);
 }
 
 footer {
-	background-image: linear-gradient(to right, var(--dark), var(--bright));
-	border-color: var(--ultra);
+	background-image: linear-gradient(to right, var(--mp_toxic_color_1), var(--mp_toxic_color_3));
+	border-color: var(--mp_toxic_color_4);
 }
 
 footer p {
-	color: var(--super);
+	color: var(--mp_toxic_color_5);
 }
 
 .map {
-	background-image: linear-gradient(to right, var(--dark), var(--medium));
+	background-image: linear-gradient(to right, var(--mp_toxic_color_1), var(--mp_toxic_color_2));
 }
 
 .active {
-	background-image: linear-gradient(to left, var(--medium), var(--bright)) !important;
-	border-color: var(--ultra);
+	background-image: linear-gradient(to left, var(--mp_toxic_color_2), var(--mp_toxic_color_3)) !important;
+	border-color: var(--mp_toxic_color_4);
 }
 
 .mapcontent {
-	background-color: var(--medium);
+	background-color: var(--mp_toxic_color_2);
 }
 
 .mapcontent p {
-	color: var(--ultra);
+	color: var(--mp_toxic_color_4);
 }
 
 .mapcontent h1 {
-	color: var(--super);
+	color: var(--mp_toxic_color_5);
 }
 
 .sidebar {
-	background-image: linear-gradient(to right, var(--medium), var(--bright));
+	background-image: linear-gradient(to right, var(--mp_toxic_color_2), var(--mp_toxic_color_3));
 }
 
 .credits {
-	background-image: linear-gradient(to left, var(--medium), var(--bright));
-	border-color: var(--ultra);
+	background-image: linear-gradient(to left, var(--mp_toxic_color_2), var(--mp_toxic_color_3));
+	border-color: var(--mp_toxic_color_4);
 }
 
 .download {
-	background-image: linear-gradient(to left, var(--medium), var(--bright));
-	border-color: var(--ultra);
+	background-image: linear-gradient(to left, var(--mp_toxic_color_2), var(--mp_toxic_color_3));
+	border-color: var(--mp_toxic_color_4);
 }
 
 map-image img {
-	border-color: var(--ultra);
+	border-color: var(--mp_toxic_color_4);
 }
 
 .yt iframe{
-	border-color: var(--ultra);
+	border-color: var(--mp_toxic_color_4);
 }
 
 .icon {
-	fill: var(--super);
+	fill: var(--mp_toxic_color_5);
 }

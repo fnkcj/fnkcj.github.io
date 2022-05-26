@@ -1,0 +1,22 @@
+:root {
+    /* mp_toxic */
+    --mp_toxic_color_5:         rgba(130, 195, 40, 1);
+	--mp_toxic_color_4:         rgba(100, 150, 32, 1);
+	--mp_toxic_color_3:         rgba(70, 105, 24, 1);
+	--mp_toxic_color_2:         rgba(40, 60, 16, 1);
+	--mp_toxic_color_1:         rgba(10, 15, 8, 1);
+
+    /* mp_dark_final */
+    --mp_dark_final_color_5:	rgba(120, 180, 240, 1);
+	--mp_dark_final_color_4:	rgba(60, 120, 180, 1);
+	--mp_dark_final_color_3: 	rgba(30, 60, 120, 1);
+	--mp_dark_final_color_2: 	rgba(15, 30, 60, 1);
+	--mp_dark_final_color_1: 	rgba(5, 10, 20, 1);
+
+    /* mp_mody_v4 */
+    --mp_mody_v4_color_5:	    rgba(135,0,190,1);
+	--mp_mody_v4_color_4:   	rgba(105,0,150,1);
+	--mp_mody_v4_color_3: 	    rgba(75,0,110,1);
+	--mp_mody_v4_color_2: 	    rgba(45,0,70,1);
+	--mp_mody_v4_color_1:   	rgba(15,0,30,1);
+}

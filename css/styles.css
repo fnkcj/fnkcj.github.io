@@ -1,3 +1,5 @@
+@import "colors.css";
+
 :root {
 	--maplink: rgba(25,25,25,1);
 }
@@ -282,18 +284,18 @@ map-image img {
 }
 
 #mp_toxic {
-	background-image: linear-gradient(to left, var(--maplink), rgba(70,105,24,1));
-	border-color: rgba(100, 150, 32, 1) !important;
+	background-image: linear-gradient(to left, var(--maplink), var(--mp_toxic_color_3));
+	border-color: var(--mp_toxic_color_4) !important;
 }
 
 #mp_dark_final {
-	background-image: linear-gradient(to left, var(--maplink), rgba(30, 60, 120, 1));
-	border-color: rgba(60, 120, 180, 1) !important;
+	background-image: linear-gradient(to left, var(--maplink), var(--mp_dark_final_color_3));
+	border-color: var(--mp_dark_final_color_4) !important;
 }
 
 #mp_mody_v4 {
-	background-image: linear-gradient(to left, var(--maplink), rgba(75,0,110,1));
-	border-color: rgba(105,0,150,1) !important;
+	background-image: linear-gradient(to left, var(--maplink), var(--mp_mody_v4_color_3));
+	border-color: var(--mp_mody_v4_color_4) !important;
 }
 
 #mp_sierra {
