@@ -12,7 +12,7 @@ footer p {
 	color: var(--mp_toxic_color_5);
 }
 
-.map {
+map-navigation {
 	background-image: linear-gradient(to right, var(--mp_toxic_color_1), var(--mp_toxic_color_2));
 }
 
