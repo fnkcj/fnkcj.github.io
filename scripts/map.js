@@ -1,4 +1,3 @@
-document.getElementsByTagName("title")[0].innerHTML = mapname;
 document.getElementById("header").innerHTML = mapname;
 
 document.getElementById('youtube').href = youtube;
