@@ -10,13 +10,9 @@ document.querySelector("[property='og:image']").content = document.getElementsBy
 
 document.getElementById("header").innerHTML = mapname;
 
-let youtubeElement = document.getElementById('youtube');
-let steamElement = document.getElementById('steam');
-let discordElement = document.getElementById('discord');
-
-youtubeElement.href = youtube;
-steamElement.href = steam;
-discordElement.href = discord;
+document.getElementById('youtube').href = youtube;
+document.getElementById('steam').href = steam;
+document.getElementById('discord').href = discord;
 
 document.getElementById(mapname).classList.add("active");
 document.getElementById("mapstyles").href = "css/" + mapname + ".css";
