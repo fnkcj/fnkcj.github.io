@@ -1,5 +1,10 @@
-document.getElementById("header").innerHTML = mapname;
 document.getElementsByTagName("title")[0].innerHTML = mapname;
+
+document.querySelector("[name='author']").content = "Funk";
+document.querySelector("[name='description']").content = "Map download page for the codjumper map " + mapname;
+document.querySelector("[name='keywords']").content = "codjumper, cod4, call, of, duty, 4, cj, custom, map, funk, " + mapname;
+
+document.getElementById("header").innerHTML = mapname;
 
 let youtubeElement = document.getElementById('youtube');
 let steamElement = document.getElementById('steam');
