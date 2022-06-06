@@ -1,5 +1,5 @@
 document.getElementById("header").innerHTML = mapname;
-document.getElementById("title").innerHTML = mapname;
+document.getElementsByTagName("title")[0].innerHTML = mapname;
 
 let youtubeElement = document.getElementById('youtube');
 let steamElement = document.getElementById('steam');
