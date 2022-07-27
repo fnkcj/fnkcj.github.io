@@ -24,7 +24,7 @@
 		<link rel="stylesheet" id="mapstyles">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
 		<link rel="icon" href="favicon.ico">
-		<script src="scripts/global.js"></script>
+		<script async src="scripts/global.js"></script>
 	</head>
 	<body>
 		<div>
@@ -281,10 +281,10 @@
 			</footer>
 		</div>
 		<script>
-			var mapname = "mp_mody_v4";
+			const mapname = "mp_mody_v4";
 		</script>
-		<script src="components/map-image.js"></script>
-		<script src="components/map-navigation.js"></script>
-		<script src="scripts/map.js"></script>
+		<script defer src="components/map-image.js"></script>
+		<script defer src="components/map-navigation.js"></script>
+		<script defer src="scripts/map.js"></script>
 	</body>
 </html>
