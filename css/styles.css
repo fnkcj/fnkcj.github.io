@@ -195,16 +195,17 @@ map-navigation {
 	text-align: left;
 }
 
-.download {
+.sidebar-button {
 	padding: 22px 16px;
 	border-style: ridge;
 	border-width: 5px;
 	text-align: center;
 	cursor: pointer;
-	margin-bottom: 24px;
+	margin-bottom: 32px;
+	width: 100%;
 }
 
-.download p {
+.sidebar-button p {
 	color: white;
 	text-shadow: 2px 2px 4px black;
 	font-family: ggpp;
@@ -213,7 +214,7 @@ map-navigation {
 	transition: 0.25s;
 }
 
-.download:hover > p {
+.sidebar-button:hover > p {
 	transform: scale(1.1);
 }
 
@@ -224,6 +225,16 @@ map-navigation {
 	font-style: italic;
 	color: #fff;
 	text-shadow: 1px 1px 2px black;
+}
+
+.logs {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.35s ease-out;
+}
+
+.logs p:first-of-type {
+	margin-top: 0;
 }
 
 .logs p {

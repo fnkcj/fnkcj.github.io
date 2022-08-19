@@ -47,7 +47,7 @@ map-navigation {
 	border-color: var(--mp_dark_final_color_4);
 }
 
-.download {
+.sidebar-button {
 	background-image: linear-gradient(to left, var(--mp_dark_final_color_2), var(--mp_dark_final_color_3));
 	border-color: var(--mp_dark_final_color_4);
 }
