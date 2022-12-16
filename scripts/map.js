@@ -13,14 +13,14 @@ document.getElementById("mapstyles").href = "css/" + mapname + ".css";
 changelogs_button.addEventListener("click", function() {
     this.classList.toggle("active");
     if (changelogs_content.style.maxHeight){
-    changelogs_content.style.maxHeight = null;
+        changelogs_content.style.maxHeight = null;
     } else {
-    changelogs_content.style.maxHeight = changelogs_content.scrollHeight + "px";
+        changelogs_content.style.maxHeight = changelogs_content.scrollHeight + "px";
     } 
 });
 
 function changePage(page) {
-    let path = window.location.pathname;
+    const path = window.location.pathname;
     if (!path.includes("fnkcj")) {
         location.href = page;
     } else {
