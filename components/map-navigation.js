@@ -25,6 +25,9 @@ class MapNavigation extends HTMLElement {
             "<div class='year'>" +
                 "<p>2019</p>" +
             "</div>" +
+        "</div>" +
+        "<div class='goback' onclick='changePage(\"index\")'>" +
+            "<p href='#'>Go Back &#x21A9;</p>" +
         "</div>";
     }
 }

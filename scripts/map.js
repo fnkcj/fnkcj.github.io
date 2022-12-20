@@ -22,7 +22,11 @@ changelogs_button.addEventListener("click", function() {
 function changePage(page) {
     const path = window.location.pathname;
     if (!path.includes("fnkcj")) {
-        location.href = page;
+        if (page === "index") {
+            location.href = url;
+        } else {
+            location.href = page;
+        }
     } else {
         location.href = page + ".html";
     }

@@ -1,0 +1,192 @@
+@font-face {
+	font-family: ggpp;
+	src: url(../assets/GoGoPosterPunchItalic.ttf);
+}
+
+* {
+	box-sizing: border-box
+}
+
+html {
+	min-height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: Orbitron;
+    font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	margin: 0;
+    background: black;
+}
+
+header {
+    font-family: ggpp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin: 64px 64px 32px 64px;
+    user-select: none;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    font-size: 5rem;
+    color: white;
+    border: 5px ridge white;
+    background-color: black;
+    box-shadow: 0px 0px 32px black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main .divider hr {
+    width: 250px;
+    margin: 0 16px;
+}
+
+main .divider h1 {
+    text-shadow: 1px 1px 1px black;
+}
+
+main a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    transition: 0.25s;
+}
+
+main a:hover {
+    transform: scale(1.1);
+}
+
+main div:not(.overlay, .divider) {
+    margin: 32px 64px;
+    background-color: black;
+    border: 5px ridge white;
+    color: white;
+    padding: 32px;
+}
+
+main div p {
+    top: 72px;
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+main div span {
+    font-size: 3rem;
+    font-family: ggpp;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 8px black;
+    user-select: none;
+    pointer-events: none;
+}
+
+main div span,
+main .box p {
+    position: absolute;
+    z-index: 1;
+}
+
+main .box {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    background-image: url("../assets/mp_mody_v4/intermediate1.jpg");
+    background-position: right;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 32px black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+main .box:hover {
+    transform: scale(1.1);
+}
+
+#mp_toxic {
+    background-image: url("../assets/mp_toxic/image3.jpg");
+}
+
+#mp_dark_final {
+    background-image: url("../assets/mp_dark_final/hard1.jpg");
+}
+
+#mp_mody_v4 {
+    background-image: url("../assets/mp_mody_v4/intermediate1.jpg");
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgba(1, 1, 1, 0), rgba(1, 1, 1, 0.25), rgba(1, 1, 1, 0.75));
+    transition: 0.5s;
+}
+
+.overlay:hover {
+    opacity: 0;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  padding-top: 12px;
+  display: flex;
+  border: 5px ridge white;
+  background-color: black;
+  margin: 32px 64px 64px 64px;
+  box-shadow: 0px 0px 32px black;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  margin-left: 32px;
+  font-size: 15px;
+  position: absolute;
+}
+
+.icons {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin: 16px;
+  transition: 0.25s;
+  fill: white;
+  cursor:pointer;
+}
+
+.icon:hover {
+  transform: scale(1.25);
+}
