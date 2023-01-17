@@ -3,11 +3,8 @@ document.getElementById("header").innerHTML = mapname;
 const changelogs_button = document.getElementsByClassName("changelogs")[0];
 const changelogs_content = document.getElementsByClassName("logs")[0];
 
-document.getElementById('youtube').href = youtube;
-document.getElementById('steam').href = steam;
-document.getElementById('discord').href = discord;
-
 document.getElementById(mapname).classList.add("active");
+
 document.getElementById("mapstyles").href = "css/" + mapname + ".css";
 
 changelogs_button.addEventListener("click", function() {
@@ -18,16 +15,3 @@ changelogs_button.addEventListener("click", function() {
         changelogs_content.style.maxHeight = changelogs_content.scrollHeight + "px";
     } 
 });
-
-function changePage(page) {
-    const path = window.location.pathname;
-    if (!path.includes("fnkcj")) {
-        if (page === "index") {
-            location.href = url;
-        } else {
-            location.href = page;
-        }
-    } else {
-        location.href = page + ".html";
-    }
-}
